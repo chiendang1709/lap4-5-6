@@ -1,0 +1,56 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.navbar-inverse {
+    background-color: dimgray;
+    border-color: aquamarine;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: blueviolet;
+    background-color: #fff;
+}
+/*Course layout*/
+.course {
+    list-style: none;
+}
+ .course > li {
+        position: relative;
+        margin-bottom: 30px;
+   }
+
+ .course > li .date 
+ {
+       text-align: center;
+       background-color:violet;
+       color: blue;
+       width: 60px;
+       border-radius: 8px;
+    }
+ .course > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+      }
+ .course > li .action {
+     display: none;
+     left: 70px;
+     position: absolute;
+ }
+ .course > li:hover .action{
+     display: block;
+ }
